@@ -18,6 +18,7 @@ export const metadata = {
     title: "Nitka's Bank",
     description: "Банк вашої мрії",
     icons: [{ rel: "icon", url: "/favicon.ico" }],
+    applicationName: "Nitka's Bank"
 } as Metadata;
 
 export default function RootLayout({
