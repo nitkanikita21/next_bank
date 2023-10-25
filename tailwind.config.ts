@@ -10,5 +10,11 @@ export default {
             },
         },
     },
-    plugins: [require("daisyui")],
+    daisyui: {
+        themes: ["synthwave", "dark", "night"],
+    },
+    plugins: [
+        require('@tailwindcss/typography'),
+        require("daisyui")
+    ],
 } satisfies Config;
