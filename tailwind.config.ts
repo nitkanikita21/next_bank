@@ -11,7 +11,7 @@ export default {
         },
     },
     daisyui: {
-        themes: ["synthwave", "dark", "night"],
+        themes: ["synthwave", "dark", "night", "forest"],
     },
     plugins: [
         require('@tailwindcss/typography'),

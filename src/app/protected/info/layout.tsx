@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 
 export default function(props: {children: ReactElement[]}) {
-    return <div className="prose lg:prose-xl">
+    return <article className="prose lg:prose-xl h-fit">
         {props.children}
-    </div>
+    </article>
 }

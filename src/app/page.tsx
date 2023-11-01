@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 
-import { CreatePost } from "~/app/_components/create-post";
 import { getServerAuthSession } from "~/server/auth";
 import { api } from "~/trpc/server";
 import { signIn, useSession } from "next-auth/react"
@@ -19,7 +18,7 @@ export default function Home() {
         <main className="hero min-h-screen bg-base-200">
             <div className="hero-content text-center">
                 <div className="max-w-md">
-                    <h1 className="text-5xl font-bold">МоноБокс</h1>
+                    <h1 className="text-5xl font-bold">ІБанк</h1>
                     <p className="py-6"></p>
                     <If condition={sessionData != null}>
                         <a className="btn btn-primary" href="/protected">Перейти до кабінету</a>

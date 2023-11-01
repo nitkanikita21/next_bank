@@ -27,7 +27,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" data-theme="night">
+        <html lang="en" data-theme="forest">
             <body className={`font-sans ${inter.variable}`}>
                 <NextAuthProvider>
                     <TRPCReactProvider headers={headers()}>{children}</TRPCReactProvider>
